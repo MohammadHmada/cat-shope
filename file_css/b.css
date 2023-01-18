@@ -1,0 +1,1446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+body{
+    background-color: rgb(170 237 174);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: rgb(177, 255, 161);
+    width: 100%;
+    height: 100px;
+    border-bottom-left-radius: 50px;
+}
+header span{
+    background-color: aliceblue;
+    width: 30%;
+    height: 100%;
+    float: right;
+    border-bottom-left-radius: 50px;
+}
+header span img{
+    border-radius: 50%;
+    height: 100%;
+    float: right;
+}
+header span p{
+    font-size: 30px;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(170 237 174);
+}
+.cat-cart{
+    margin: 15px;
+    width: calc((100% / 4) - 30px);
+    height: 400px;
+    background-color: rgb(8, 240, 162);
+    float: right;
+    animation: flip-2-ver-left-2 10s 0s;
+    position: relative;
+    border-top-right-radius: 25px;
+
+}
+.cat-cart img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.cat-cart table{
+    width:100% ;
+    height:60% ;
+    position:absolute;
+    bottom: 0.5px;
+}
+table tr td{
+    text-align: center;
+    border: 2px solid black;
+}
+button{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    border: 2px solid darkturquoise;
+    background-color: aqua;
+}
+footer{
+    font-size: 30px;
+    background-color: rgb(197, 233, 231);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+}
+footer div{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+/*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+@keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+/* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+@media screen and (min-width:650px) and (max-width:800px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 30%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1300px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc((100% / 3) - 30px);
+        height: 400px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 30px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:650px) and (max-width:800px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 30%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1300px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc((100% / 3) - 30px);
+        height: 400px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 30px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:600px) and (max-width:650px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 40%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc((100% / 3) - 30px);
+        height: 300px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:600px) and (max-width:650px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 40%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc((100% / 3) - 30px);
+        height: 300px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:425px) and (max-width:600px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 45%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1200px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc((100% / 2) - 30px);
+        height: 250px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 200px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:425px) and (max-width:600px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 45%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1200px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc((100% / 2) - 30px);
+        height: 250px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 200px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:375px) and (max-width:425px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: 2gb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1050px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 25px;
+        width: calc(100% / 2 - 50px);
+        height: 200px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 200px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:375px) and (max-width:425px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: 2gb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 1050px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 25px;
+        width: calc(100% / 2 - 50px);
+        height: 200px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 200px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:320px) and (max-width:375px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 3500px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc(100%  - 30px);
+        height: 400px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:320px) and (max-width:375px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 3500px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc(100%  - 30px);
+        height: 400px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 20px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:200px) and (max-width:320px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 3500px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc(100%  - 30px);
+        height: 400px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 18px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:200px) and (max-width:320px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 100px;
+        border-bottom-left-radius: 50px;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-bottom-left-radius: 50px;
+    }
+    header span img{
+        border-radius: 50%;
+        height: 100%;
+        float: right;
+    }
+    header span p{
+        font-size: 30px;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        height: 3500px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc(100%  - 30px);
+        height: 400px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 18px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:150px) and (max-width:200px) and (orientation:landscape){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    header span img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        position: absolute;
+        top:15%;
+        left: 25%;
+    }
+    header span p{
+        position: absolute;
+        font-size: 30px;
+        text-align: center;
+        top:55% ;
+        left:25% ;
+    }
+    main{
+        width: 100%;
+        height: 2650px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc(100%  - 30px);
+        height: 300px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 15px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
+@media screen and (min-width:150px) and (max-width:200px) and (orientation:portrait){
+    *{
+        margin: 0px;
+        padding: 0px;
+        direction: rtl;
+    }
+    body{
+        background-color: rgb(170 237 174);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        background-color: rgb(177, 255, 161);
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    header span{
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    header span img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        position: absolute;
+        top:15%;
+        left: 25%;
+    }
+    header span p{
+        position: absolute;
+        font-size: 30px;
+        text-align: center;
+        top:55% ;
+        left:25% ;
+    }
+    main{
+        width: 100%;
+        height: 2650px;
+        background-color: rgb(170 237 174);
+    }
+    .cat-cart{
+        margin: 15px;
+        width: calc(100%  - 30px);
+        height: 300px;
+        background-color: rgb(8, 240, 162);
+        float: right;
+        animation: flip-2-ver-left-2 10s 0s;
+        position: relative;
+        border-top-right-radius: 25px;
+    
+    }
+    .cat-cart img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .cat-cart table{
+        width:100% ;
+        height:60% ;
+        position:absolute;
+        bottom: 0.5px;
+    }
+    table tr td{
+        text-align: center;
+        border: 2px solid black;
+    }
+    button{
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        border: 2px solid darkturquoise;
+        background-color: aqua;
+    }
+    footer{
+        font-size: 15px;
+        background-color: rgb(197, 233, 231);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+    }
+    footer div{
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    /*هذا السطر في الأسفل تم الحصول عليه من الأنترنت و التعديل عليه قليلاً*/
+    @keyframes flip-2-ver-left-2{0%{transform:translateX(0) rotateY(0);transform-origin:0 50%}50%{transform:translateX(100%) rotateY(180deg);transform-origin:100% 0}75%{transform:translateX(0) rotateY(0);transform-origin:0 50%}}
+    /* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+}
